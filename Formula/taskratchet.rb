@@ -8,7 +8,7 @@
 # sha256 values and the tag in each URL on every CLI release. Keep the marker
 # comments intact — the update step keys on them.
 class Taskratchet < Formula
-  desc "Command-line interface for TaskRatchet, task management with financial stakes"
+  desc "Alpha CLI for TaskRatchet, task management with financial stakes"
   homepage "https://taskratchet.com"
   version "0.1.0" # tr-version
   # Declared in the taskratchet monorepo's root package.json.
@@ -40,6 +40,13 @@ class Taskratchet < Formula
     # The asset is a bare, platform-suffixed executable; Homebrew saves it under
     # the URL's basename, so install it under the plain command name.
     bin.install Dir["taskratchet-*"].first => "taskratchet"
+  end
+
+  def caveats
+    <<~EOS
+      The TaskRatchet CLI is alpha. Commands, flags and output format may change
+      between releases. Pin a version if you script against it.
+    EOS
   end
 
   test do

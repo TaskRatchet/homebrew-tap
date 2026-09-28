@@ -2,6 +2,9 @@
 
 Homebrew formulae for TaskRatchet command-line tools.
 
+> [!WARNING]
+> **The TaskRatchet CLI is alpha.** Commands, flags and output format may change between releases. Pin a version if you script against it.
+
 ```sh
 brew install taskratchet/tap/taskratchet
 ```
