@@ -10,9 +10,9 @@
 class Taskratchet < Formula
   desc "Command-line interface for TaskRatchet, task management with financial stakes"
   homepage "https://taskratchet.com"
+  version "0.1.0" # tr-version
   # Declared in the taskratchet monorepo's root package.json.
   license "ISC"
-  version "0.1.0" # tr-version
 
   on_macos do
     on_arm do
