@@ -10,29 +10,29 @@
 class Taskratchet < Formula
   desc "Alpha CLI for TaskRatchet, task management with financial stakes"
   homepage "https://taskratchet.com"
-  version "0.3.1" # tr-version
+  version "0.4.0" # tr-version
   # Declared in the taskratchet monorepo's root package.json.
   license "ISC"
 
   on_macos do
     on_arm do
-      url "https://github.com/PinePeakDigital/taskratchet-cli-releases/releases/download/cli-v0.3.1/taskratchet-darwin-arm64"
-      sha256 "7bfb0789015482e2a2813fd22f3a0096cf0ee353a9251417d15171d4506f2de0" # tr-sha-darwin-arm64
+      url "https://github.com/PinePeakDigital/taskratchet-cli-releases/releases/download/cli-v0.4.0/taskratchet-darwin-arm64"
+      sha256 "adf131a7c2d461fed4a8dc54cc32c288f46e8cd111ee31acdf7256e259cc98f8" # tr-sha-darwin-arm64
     end
     on_intel do
-      url "https://github.com/PinePeakDigital/taskratchet-cli-releases/releases/download/cli-v0.3.1/taskratchet-darwin-amd64"
-      sha256 "71fd1b956020ee22dc92f13ded59f2de2dda53fef4009c865014a379bc71d4d7" # tr-sha-darwin-amd64
+      url "https://github.com/PinePeakDigital/taskratchet-cli-releases/releases/download/cli-v0.4.0/taskratchet-darwin-amd64"
+      sha256 "792e64cf3f799e064460a5140b81d3d0d0d49102286f6fea3b0727c2bc6e97b8" # tr-sha-darwin-amd64
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/PinePeakDigital/taskratchet-cli-releases/releases/download/cli-v0.3.1/taskratchet-linux-arm64"
-      sha256 "4a9b158ed9c716a1e97d669a2596d2c4663203757890cb716f1d6a74e36ea2b9" # tr-sha-linux-arm64
+      url "https://github.com/PinePeakDigital/taskratchet-cli-releases/releases/download/cli-v0.4.0/taskratchet-linux-arm64"
+      sha256 "9ecd208b900de818fbd41e41b9751a34d66a0a7aa3112e103511595ce16a616d" # tr-sha-linux-arm64
     end
     on_intel do
-      url "https://github.com/PinePeakDigital/taskratchet-cli-releases/releases/download/cli-v0.3.1/taskratchet-linux-amd64"
-      sha256 "45c5de44065eaa0ee615fd9bb3242f298b77c99ae3866afd2cab8e09bf7ad93c" # tr-sha-linux-amd64
+      url "https://github.com/PinePeakDigital/taskratchet-cli-releases/releases/download/cli-v0.4.0/taskratchet-linux-amd64"
+      sha256 "ac31cfaad396ccdf1700b651d715f56950e3cb4bc50fb2ccae13cbd89ea9f154" # tr-sha-linux-amd64
     end
   end
 
